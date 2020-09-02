@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}一些基础知识和概念}{1}%
+\contentsline {subsection}{\numberline {1.1}DLP TLP ILP RLP}{1}%
+\contentsline {subsection}{\numberline {1.2}SISD SIMD MIMD}{1}%
+\contentsline {subsection}{\numberline {1.3}RISC}{2}%
+\contentsline {section}{\numberline {2}Datacenter/WSC/HPC Cluster/Server}{2}%

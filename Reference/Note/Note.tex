@@ -1,0 +1,34 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{indentfirst} 
+\usepackage{enumitem}
+\title{Note}
+\author{徐秉正}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{一些基础知识和概念}
+\subsection{DLP TLP ILP RLP}
+\begin{description}
+    \item[]Classes of application parallelism
+    \begin{description}
+        \setdescription{labelsep=\textwidth}
+    \item[DLP]Data-level parallelism 数据级并行，同时操作许多数据项
+    \item[TLP]Thread-level parallelism 并行处理单独任务
+    \end{description}
+    \item[]实现方式
+    \begin{description}
+    \item[ILP]Instruction-Level Parallelism 多指令流多数据流
+    \item[RLP]Request-level parallelism 
+    \end{description}
+\end{description}
+\subsection{SISD SIMD MIMD}
+\begin{description}
+    \item[SISD]Single Instruction Single Data 单指令流单数据流
+    \item[SIMD]Single Instruction Multiple Data 单指令流多数据流
+    \item[MIMD]Multiple Instruction Multiple Data 多指令流多数据流
+\end{description}
+\subsection{RISC}
+\section{Datacenter/WSC/HPC Cluster/Server}
+显然Cluster和WSC都是请求级并行的MIMD体系结构
+\end{document}
